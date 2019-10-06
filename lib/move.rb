@@ -16,7 +16,7 @@ def update_array_at_with(array, index, value)
   array[index] = value
 end
 
-def move(board.reverse, input, char = "X")
+def move(board, input, char = "X")
   index = input_to_index (input)
   update_array_at_with(board, index, char)
 end
